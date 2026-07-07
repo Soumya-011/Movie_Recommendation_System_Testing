@@ -1,0 +1,10 @@
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore raw data files (never push massive CSVs to GitHub!)
+*.csv
+
+# Python cache
+__pycache__/
+*.pyc
